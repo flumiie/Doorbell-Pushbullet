@@ -34,3 +34,8 @@ Later we can do pretty much anything on the result, especially sending notificat
 You can pretty much use any doorbell that has solenoid on it, and attach any kind of reed switch near it.
 
 ![Schematics](./Schematics.png)
+
+## Finished Product
+Just tuck it away inside the doorbell chime's box and call it a day. Or you can get a separate container and put it right next to your doorbell, or whatever your imagination desires.
+
+![Result](./Result.jpg)
