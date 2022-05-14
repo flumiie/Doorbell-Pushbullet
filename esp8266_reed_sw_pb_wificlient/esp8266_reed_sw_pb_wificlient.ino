@@ -32,7 +32,7 @@ void wifi_setup()
   Serial.println();
 }
 
-void notify_to_pushbullet(char IDs[])
+void notify_to_pushbullet()
 {
   Serial.println("Sending notification to Pushbullet ...");
 
@@ -55,7 +55,7 @@ void notify_to_pushbullet(char IDs[])
     // We now create a URI for the request
     String url = "/pushingbox";
     url += "?devid=";
-    url += IDs[count];
+    url += deviceID;
 
     Serial.print("Requesting URL: ");
     Serial.println(url);
@@ -102,7 +102,7 @@ void setup()
   {
     Serial.println("Doorbell pressed");
     wifi_setup();
-    notify_to_pushbullet(deviceID);
+    notify_to_pushbullet();
   }
   Serial.println("Deep-sleeping ...");
   ESP.deepSleep(0);
