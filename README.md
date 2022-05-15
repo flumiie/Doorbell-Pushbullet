@@ -11,16 +11,16 @@ Using a reed switch, we can harness that "magnet" when the doorbell is pressed.
 Later we can do pretty much anything on the result, especially sending notification to your phone or any of your device connected to Pushbullet.
 
 ## Requirements
-### * Your WiFi [SSID](./esp8266_reed_sw_pb_wificlient/esp8266_reed_sw_pb_wificlient.ino#L8) & [Password](./esp8266_reed_sw_pb_wificlient/esp8266_reed_sw_pb_wificlient.ino#L9)
-### * [**PushingBox.com**](https://pushingbox.com) account
-1. Go to [My Services](https://www.pushingbox.com/services.php) and click **Add a service**
-2. Select Pushbullet, name it **Pushbullet** or any of your preffered choice
-3. Add access token. You can create one [in here](https://www.pushbullet.com/account)
-4. Go to [My Scenarios](https://www.pushingbox.com/scenarios.php)
-5. Create a scenario or add a device by entering a scenario name, i named it **Doorbell**
-6. Click **Add an action** and select Pushbullet
-7. Give it a **Title** and a **Message**. This is what will shows up on your Pushbullet notification
-8. Copy the scenario's `DeviceID` and [paste it here](./esp8266_reed_sw_pb_wificlient/esp8266_reed_sw_pb_wificlient.ino#L11)
+* ### Your WiFi [SSID](./esp8266_reed_sw_pb_wificlient/esp8266_reed_sw_pb_wificlient.ino#L8) & [Password](./esp8266_reed_sw_pb_wificlient/esp8266_reed_sw_pb_wificlient.ino#L9)
+* ### [**PushingBox.com**](https://pushingbox.com) account
+  1. Go to [My Services](https://www.pushingbox.com/services.php) and click **Add a service**
+  2. Select Pushbullet, name it **Pushbullet** or any of your preffered choice
+  3. Add access token. You can create one [in here](https://www.pushbullet.com/account)
+  4. Go to [My Scenarios](https://www.pushingbox.com/scenarios.php)
+  5. Create a scenario or add a device by entering a scenario name, i named it **Doorbell**
+  6. Click **Add an action** and select Pushbullet
+  7. Give it a **Title** and a **Message**. This is what will shows up on your Pushbullet notification
+  8. Copy the scenario's `DeviceID` and [paste it here](./esp8266_reed_sw_pb_wificlient/esp8266_reed_sw_pb_wificlient.ino#L11)
 
 ## Parts
 * **WeMos D1 Mini**
