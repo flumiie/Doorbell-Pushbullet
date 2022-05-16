@@ -16,12 +16,12 @@ Later we can do pretty much anything on the result, especially sending notificat
 * [**PushingBox.com**](https://pushingbox.com) account
 
 ## Parts
-* **WeMos D1 Mini**
-* **Wemos D1 Mini Battery Shield** <i>(Optional, you can use **DC Buck Converter** to convert mains voltage (21V), my doorbell directly uses 220V and I don't want to mess with another transformer just yet)</i>
+* **WeMos D1 Mini** (<i>Clones are not recommended if you use battery</i>)
+* **Wemos D1 Mini Battery Shield** (<i>Optional, you can use **DC Buck Converter** to convert mains voltage (21V), my doorbell directly uses 220V and I don't want to mess with another transformer just yet</i>)
 * If you use the battery shield, get any **Li-Po / Li-Ion 3.7V battery**, at least 900mAH is recommended
 * Any reed switch, i use **MC-38**
 * **10KΩ Resistor**
-* **LED** <i>(Optional, for indicator)</i>
+* **LED** (<i>Optional, for indicator</i>)
 
 ## Creating a PushingBox scenario
   1. Go to [My Services](https://pushingbox.com/services.php) and click **Add a service**
